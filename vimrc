@@ -47,6 +47,8 @@ Plugin 'scrooloose/nerdtree'
 Plugin 'vim-scripts/taglist.vim'
 " 自动补全插件
 Plugin 'vim-scripts/AutoComplPop'
+" 增加.h/.cpp跳转插件
+Plugin 'vim-scripts/A.vim'
 
 
 " " 你的所有插件需要在下面这行之前
