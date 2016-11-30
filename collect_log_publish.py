@@ -4,7 +4,7 @@ import time
 import pytz
 from datetime import datetime
 from influxdb import client as influxdb
-client = influxdb.InfluxDBClient("112.121.158.210", 8086, "collector", "234dg24cdgerh", "garena_tv")
+client = influxdb.InfluxDBClient("", 8086, "", "", "")
 
 last_hour = time.strftime("%H", time.localtime(time.time()))
 #filename = '/data/release/srs/log/publish.log.' + time.strftime("%Y-%m-%d_%H00", time.localtime(time.time()))
